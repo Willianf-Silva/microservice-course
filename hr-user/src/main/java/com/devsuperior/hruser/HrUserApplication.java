@@ -20,7 +20,7 @@ public class HrUserApplication implements CommandLineRunner{
 
 	@Override
 	public void run(String... args) throws Exception {
-		System.out.println("BCRYPPT = " + passwordEncoder.encode("123456"));
+		//System.out.println("BCRYPPT = " + passwordEncoder.encode("123456")); //Testando a maneira de criptografar uma senha com BCrypt
 	}
 
 }
